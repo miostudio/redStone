@@ -1,0 +1,88 @@
+html,head{margin:0; padding:0;}
+
+/*top right button*/
+#u1 {
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 19px 0 5px;
+    padding: 0 96px 0 0;
+}
+
+#u1 a.mnav, #u1 a.mnav:visited {
+    float: left;
+    color: #333;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+/*end*/
+
+
+
+.t{font-size:150%; font-weight:700; background:#ddd;}
+.red{color:red;}
+.text-muted,
+.grey{color:grey;}
+li{background:#FFF8DC; padding:3px;}
+ul{border-left:2px solid rgb(255, 235, 142);
+	list-style_type:none;
+	margin:0;
+	padding:0;
+}
+div .block{
+	background:#FFF8DC;
+	padding:5px;
+}
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 15px;
+    text-align: center;
+}
+
+.quote{font-family:"微软雅黑"; font-size:150%;}
+/*money: yan18224515251*/
+
+
+.btn {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAYAAABIdFAMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHhJREFUeNo8zjsOxCAMBFB/KEAUFFR0Cbng3nQPw68ArZdAlOZppPFIBhH5EAB8b+Tlt9MYQ6i1BuqFaq1CKSVcxZ2Acs6406KUgpt5/LCKuVgz5BDCSb13ZO99ZOdcZGvt4mJjzMVKqcha68iIePB86GAiOv8CDADlIUQBs7MD3wAAAABJRU5ErkJggg%3D%3D") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 120%;
+    font-weight: bold;
+    margin-right: 10px; 
+    padding: 5px 12px;
+    text-decoration: none;
+
+
+	border-radius:10px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 10px;
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+.btn:hover {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAyCAYAAACd+7GKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAClJREFUeNpi/v//vwMTAwPDfzjBgMpFI/7hFSOT9Y8qRuF3JLoHAQIMAHYtMmRA+CugAAAAAElFTkSuQmCC");
+}
+
+.btn.red {    background-color: #FF0000;}/*e62727  E33100  2DAEBF*/
+.btn.blue {    background-color: rgb(41, 129, 228);}
+.btn.green {    background-color: #6ABF4D;}
+
