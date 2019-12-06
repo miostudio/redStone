@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv=Content-Type content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scaleble=no">
+	<title>便民 - 郑州万科城黄页 - v0.1.12</title>
+	<meta name="keywords" content="万科,便民,黄页" />
+	<link rel="stylesheet" media="all" href="css/bianmin.css" />
+	
+	<style>
+.card .bingo{
+	/*
+	display:block;
+	*/
+	display:none;
+}
+	</style>
+	
+<script>
+print=console.log;
+function $(s){
+	return document.getElemnetById(s);
+}
+//
+window.onload=function(){
+	var aCard=document.getElementsByClassName('card');
+	var aLi=[]
+	for(var i=0;i<aCard.length;i++){
+		var oCard=aCard[i];
+		Array.prototype.push.apply(aLi, oCard.getElementsByTagName('li'))
+	}
+	//
+	for(var i=0;i<aLi.length;i++){
+		var oLi=aLi[i];
+		oLi.show=false;
+		oLi.onclick=function(){
+			var oBingo=this.getElementsByClassName('bingo')[0];
+			oBingo.style.display=oLi.show?"none":"block";
+			oLi.show=!oLi.show;
+		}
+	}	
+}
+</script>
+</head>
+<body>
+<!--
+v0.1 基本可用, 优化样式
+
+http://redstone.dawneve.cc/bianmin.html
+-->
+
+<div class=header>
+	<h1>便民服务 地址和电话<br>【信息仅供参考，可能不准确或过期】</h1>
+	<p>有需要请联系QQ: 469004330; update: 2019.12.6</p>
+	<p>标签示例: 
+		<span class='tag'>tag1</span>
+		<span class='tag yellow'>yellow</span>
+		<span class='tag green'>green</span>
+		<span class='tag red'>red</span>
+	</p>
+	<p>
+		<span class='tag bgGreen'>bgGreen</span>
+		<span class='tag bgBlue'>bgBlue</span>
+	</p>
+</div>
+
+
+
+<div class=card>
+	<p class=month>周边柴米油盐</p>
+	<ol>
+		<li>收废品电话 <span class=light>更新 2019.12.6</span><span class=bingo><img style="height:80px;" src="images/bianmin/waste.jpg"></span> </li>
+		<li>送桶装水电话 <span class=light>更新 2019.12.6</span><span class=bingo>
+			<img style="height:200px;" src="images/bianmin/water.jpg"></span> </li>
+		<li>班车时刻表 <span class=light>更新 2019.12.6</span><span class=bingo><img style="height:500px;" src="images/bianmin/bus.jpg"></span> </li>
+		<li>郑州华润 天然气价格公示 <span class=light>更新 2019.6.28</span><span class=bingo>
+			<img style="height:300px;" src="images/bianmin/price_gas.jpg">
+			<img style="height:300px;" src="images/bianmin/price_gas_first.jpg">
+		</span> </li>
+		<li>生活配套交费(水电气暖网) <span class=light>更新 2019.4.29</span><span class=bingo>
+			<img style="height:300px;" src="images/bianmin/price_some.jpg">
+		</span></li>
+<!--
+		<li>收废品电话 <a target="_blank" href="2019/12/1.txt">[txt]</a> <span class=light>更新 2019.12.6</span> </li>
+-->
+	</ol>
+</div>
+
+
+
+
+<div class=card>
+	<p class=month>不动产信息</p>
+	<ol>
+		<li>周围地块 <span class=light>更新 2019.7.30</span><span class=bingo>
+			<img style="height:300px;" src="images/bianmin/vicinity2.jpg">
+			<img style="height:200px;" src="images/bianmin/vicinity.jpg">
+			<img style="height:200px;" src="images/bianmin/vicinity3.jpg"> <!-- 2014.3.25 -->
+		</span> </li>
+		
+		<li>C户型图 <span class=light>更新 2019.8.3</span><span class=bingo>
+			<img style="height:250px;" src="images/bianmin/C.jpg">
+			<img style="height:250px;" src="images/bianmin/C_2.jpg">
+		</span> </li>
+		
+		<li>C户型图冰箱宽度 <span class=light>更新 2019.8.3</span><span class=bingo>
+			<img style="height:250px;" src="images/bianmin/C_fridge.jpg">
+			<img style="height:250px;" src="images/bianmin/C_fridge2.jpg">
+		</span> </li>
+		
+		<li>怎么选空调 <span class=light>更新 2019.6.9</span><span class=bingo>
+			<img style="height:450px;" src="images/bianmin/air-conditioner.jpg">
+		</span> </li>		
+		<li>物业人员 <span class=light>更新 2019.5.23</span><span class=bingo>
+			<img style="height:300px;" src="images/bianmin/wuye_01.jpg">
+		</span> </li>
+
+<!--
+		<li>班车时刻表 <span class=light>更新 2019.12.6</span><span class=bingo><img style="height:500px;" src="images/bianmin/bus.jpg"></span> </li>
+		<li>收废品电话 <a target="_blank" href="2019/12/1.txt">[txt]</a> <span class=light>更新 2019.12.6</span> </li>
+-->
+	</ol>
+</div>
+
+
+
+
+
+<div class=card>
+	<p class=month>相关部门</p>
+	<ol>
+		<li>户籍室 迁户口需要准备的材料 及地址 <span class=light>更新 2019.7.15</span>
+			<span class=bingo>
+				<img style="height:300px;" src="images/bianmin/hukou2.jpg">
+				<img style="height:300px;" src="images/bianmin/hukou.jpg">
+				<img style="height:300px;" src="images/bianmin/hukou3.jpg"> <!-- 2019.6.1 -->
+			</span> 
+		</li>
+<!--
+		<li>收废品电话 <span class=light>更新 2019.12.6</span><span class=bingo><img src=""></span> </li>
+		<li>收废品电话 <a target="_blank" href="2019/12/1.txt">[txt]</a> <span class=light>更新 2019.12.6</span> </li>
+-->
+	</ol>
+</div>
+
+
+
+
+
+
+
+

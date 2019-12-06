@@ -1,6 +1,12 @@
 code at github.com/miostudio/redstone
 https://v3.bootcss.com/getting-started/#examples
 
+
+local: redstone.dawneve.cc
+
+
+
+
 v0.0.1 第一版
 v0.0.2 修改部分字词。
 v0.0.3 修改措辞。添加邮箱。
@@ -29,9 +35,11 @@ v0.1.9 微调文字。
 v0.1.10 增加至业主的一封信。
 v0.1.11 增一篇微信公众号文章。
 v0.1.12 新增佛山万科公寓事件
+v0.1.13 添加便民电话 /bianmin.html 
 
 
 -
+local: redstone.dawneve.cc
 
 2019.7.30 郑州晚报AA06版右下角，公示郑州地铁8号线西延：
 http://zzwb.zynews.cn/page/2/2019-07/30/AA06/20190730AA06_pdf.pdf
