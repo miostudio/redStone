@@ -37,6 +37,7 @@ v0.1.11 增一篇微信公众号文章。
 v0.1.12 新增佛山万科公寓事件
 v0.1.13 添加便民电话 /bianmin.html 
 v0.1.14 /bianmin.html 图片懒加载
+v0.1.14-fix /bianmin.html 图片懒加载，去掉print web才能显示
 
 
 -

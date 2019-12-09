@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv=Content-Type content="text/html;charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scaleble=no">
-	<title>便民 - 郑州万科城黄页 - v0.1.13</title>
+	<title>便民 - 郑州万科城黄页 - v0.1.14</title>
 	<meta name="keywords" content="万科,便民,黄页" />
 	<link rel="stylesheet" media="all" href="css/bianmin.css" />
 	
@@ -39,7 +39,7 @@ window.onload=function(){
 			var aImg=oBingo.getElementsByTagName('img');
 			for(var i=0;i<aImg.length;i++){
 				var oImg=aImg[i];
-				print(i, oImg)
+				//print(i, oImg)
 				if(!oImg.getAttribute('load')){ //如果没有加载，则加载
 					//print('not load')
 					oImg.setAttribute('src', oImg.getAttribute('src-data'));
